@@ -1,0 +1,1 @@
+Hãy phát triển quân và giành nhịp độ bằng cách buộc đối thủ phải di chuyển một quân có giá trị cao.

@@ -1,0 +1,50 @@
+- Defense
+- Learn how to survive attacks with stubborn defense.
+
+- They're a move away from checkmate! How can you play defense?
+- Well spotted! The bishop keeps your king safe.
+
+- How can you defend the checkmate square?
+- Bravo! The knight safely defends the checkmate square.
+
+- What's the best way to defend against tactics on your weak pawn?
+- You got it! Your knight neutralizes their threat.
+
+- A discovered check and a threat on your queen. Find the one defense!
+- Excellent! Your knight safely shields the king and queen at the same time!
+
+- You're winning right now, but how can you keep your extra queen?
+- Well done! How can you shield your king and not lose your queen?
+- Well done! How can you shield your king and not lose your queen?
+- Impressive defense! The rook shields your king, maintaining your advantage.
+gộp ý 2, 3, 4 lại
+
+- They're attacking, but you're a couple smart checks away from trading queens!
+- Nice queen geometry! How can you force a trade of queens?
+- Nice queen geometry! How can you force a trade of queens?
+- Exactly! Capture the queen.
+- Exactly! Capture the queen.
+- Fantastic work forcing a trade of queens. Now you're ready to win the game!
+gộp ý 2, 3, 4, 5, 6 lại
+
+---
+Phòng thủ (Defense)
+Học cách chống đỡ các đợt tấn công bằng lối phòng thủ kiên cường và chính xác.
+
+Đối phương chỉ còn cách một nước nữa là chiếu hết! Bạn sẽ phòng thủ như thế nào?
+Rất tinh ý! Tượng đã bảo vệ an toàn cho vua của bạn.
+
+Làm thế nào để bảo vệ ô chiếu hết?
+Xuất sắc! Mã đã an toàn bảo vệ ô chiếu hết quan trọng.
+
+Đâu là cách tốt nhất để phòng thủ trước các chiến thuật nhắm vào quân tốt yếu của bạn?
+Chính xác! Mã của bạn đã vô hiệu hóa hoàn toàn mối đe dọa của đối phương.
+
+Một đòn đánh lộ vừa chiếu vua vừa đe dọa hậu của bạn. Hãy tìm nước phòng thủ duy nhất!
+Rất tốt! Mã của bạn đồng thời che chắn cho cả vua và hậu.
+
+Hiện tại bạn đang thắng, nhưng làm thế nào để giữ được lợi thế hơn hậu?
+Xuất sắc! Xe đã che chắn cho vua mà vẫn bảo toàn được quân hậu, giúp bạn duy trì lợi thế quyết định.
+
+Đối phương đang tấn công, nhưng bạn chỉ còn vài nước chiếu chính xác nữa là có thể đổi hậu.
+Tuyệt vời! Bạn đã khéo léo ép đổi hậu và loại bỏ hoàn toàn cơ hội tấn công của đối phương, qua đó tiến gần hơn tới chiến thắng.

@@ -1,0 +1,60 @@
+- Remove the Defender
+- Learn how to remove the defender.
+
+- If the knight gets captured, the bishop is no longer defended.
+- Yes! You can now capture the bishop.
+- Yes! You can now capture the bishop.
+- Great work removing the defender!
+gộp ý 2, 3, 4 lại
+
+- Get rid of the rook to win the bishop.
+- The defender is gone - let's win the bishop! 
+- The defender is gone - let's win the bishop!
+- Well done
+gộp ý 2, 3, 4 lại
+
+- Their knight is the only thing stopping you from checkmate.
+- Now you can checkmate!
+- Now you can checkmate!
+- Well spotted!
+gộp ý 2, 3, 4 lại
+
+- Find the defender and remove it!
+- You got it! Let's win the bishop.
+- You got it! Let's win the bishop.
+- Nice work winning material!
+gộp ý 2, 3, 4 lại
+
+- A lowly pawn can be powerful.
+- Nice move - now you can win a bishop.
+- Nice move - now you can win a bishop.
+- Excellent!
+gộp ý 2, 3, 4 lại
+
+- Your queen wants to deliver checkmate. Which piece is stopping you?
+- Yes! Now when the knight moves, your queen can deliver checkmate.
+- Yes! Now when the knight moves, your queen can deliver checkmate.
+- Your queen and bishop are a powerful team - nice checkmate!
+gộp ý 2, 3, 4 lại
+
+---
+Loại bỏ quân phòng thủ (Remove the Defender)
+Học cách loại bỏ quân bảo vệ để giành quân hoặc tạo đòn chiếu hết.
+
+Nếu quân mã bị bắt, quân tượng sẽ không còn được bảo vệ.
+Chính xác! Sau khi loại bỏ quân phòng thủ, bạn có thể bắt quân tượng và giành lợi thế về quân.
+
+Hãy loại bỏ quân xe để thắng quân tượng.
+Rất tốt! Quân phòng thủ đã biến mất, và bạn đã tận dụng cơ hội để bắt quân tượng.
+
+Quân mã của đối phương là thứ duy nhất ngăn cản đòn chiếu hết của bạn.
+Xuất sắc! Sau khi loại bỏ quân phòng thủ, bạn đã mở đường cho đòn chiếu hết.
+
+Hãy tìm quân phòng thủ và loại bỏ nó!
+Chính xác! Bạn đã loại bỏ quân bảo vệ và thắng được quân tượng, qua đó giành lợi thế về quân.
+
+Đừng xem thường sức mạnh của một quân tốt.
+Rất hay! Nước đi của bạn đã loại bỏ quân phòng thủ và giúp thắng được một quân tượng.
+
+Hậu của bạn đang muốn chiếu hết. Quân nào đang cản trở kế hoạch đó?
+Xuất sắc! Sau khi loại bỏ quân cản đường, hậu và tượng đã phối hợp hoàn hảo để thực hiện đòn chiếu hết.

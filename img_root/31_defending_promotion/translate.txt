@@ -1,0 +1,47 @@
+- Defending Promotion
+- In the endgame, it's often essential to stop your opponent from promoting a pawn.
+
+- Cover their promotion square with your bishop.
+- Great job!
+
+- The pawn is going to promote, but if you're careful, you can still catch it.
+- They can promote, but don't give up!
+- They can promote, but don't give up!
+- Well played! What's next?
+- Well played! What's next?
+- Great job! Black will recapture, and the game ends in a draw.
+gộp ý 2, 3, 4, 5, 6 lại
+
+- Kings are surprisingly fast in endgames. If you can reach "the square" the pawn makes with its goal, then you can catch it!
+- You're inside the square! Keep chasing.
+- You're inside the square! Keep chasing.
+- Almost there! One more step
+- Almost there! One more step
+- The pawn promoted, but you're right next to it!
+- The pawn promoted, but you're right next to it!
+- Great job! You caught the pawn by staying inside the square. The game is a draw.
+gộp ý 2, 3, 4, 5, 6, 7, 8 lại
+
+- Promote your pawn and don't let Black's king catch it.
+- Great start! Can you continue?
+- Great start! Can you continue?
+- Yes, one more square to go?
+- Yes, one more square to go?
+- Great promotion!
+gộp ý 2, 3, 4, 5, 6 lại
+
+---
+Phòng thủ chống phong cấp (Defending Promotion)
+Trong tàn cuộc, việc ngăn đối phương phong cấp quân tốt thường mang ý nghĩa quyết định.
+
+Hãy dùng tượng để kiểm soát ô phong cấp của đối phương.
+Rất tốt!
+
+Quân tốt đối phương sắp phong cấp, nhưng nếu xử lý chính xác, bạn vẫn có thể ngăn đối thủ giành chiến thắng.
+Đừng bỏ cuộc! Dù quân tốt đã phong cấp, bạn vẫn có thể bắt được quân mới phong và buộc ván cờ kết thúc với kết quả hòa.
+
+Trong tàn cuộc, vua di chuyển nhanh hơn bạn nghĩ. Nếu vua của bạn kịp tiến vào “ô vuông” của quân tốt đối phương, bạn sẽ bắt kịp nó.
+Xuất sắc! Bạn đã kiên trì bám đuổi, giữ vua bên trong ô vuông và cuối cùng bắt được quân tốt. Ván cờ kết thúc với kết quả hòa.
+
+Hãy phong cấp quân tốt của bạn và đừng để vua Đen bắt kịp.
+Rất tốt! Bạn đã đẩy quân tốt chính xác qua từng bước và phong cấp thành công.

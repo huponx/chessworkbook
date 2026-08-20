@@ -1,0 +1,33 @@
+- Prevent Castling
+- Learn how to prevent your opponent from castling.
+
+- Your opponent weakened their king. Where can your bishop go to make it hard for the king to castle to safety? 
+- Correct!
+
+- Force their king to move so they can never castle to safety.
+- The king needs to move to escape check and will not be able to castle.
+
+- Your opponent never castled. How can you win the game? 
+- Can you find the checkmate?
+- Can you find the checkmate?
+- Checkmate!
+gộp ý 2, 3, 4 lại
+
+- How can you punish their unsafe king?
+- Great job! They can't save the queen because the king is right behind it.
+
+---
+Ngăn đối thủ nhập thành (Prevent Castling)
+Học cách ngăn cản đối thủ đưa vua vào vị trí an toàn bằng cách nhập thành.
+
+Đối thủ đã làm suy yếu vị trí của vua. Tượng của bạn nên đến ô nào để khiến việc nhập thành trở nên khó khăn?
+Chính xác!
+
+Hãy buộc vua đối phương phải di chuyển để họ mất quyền nhập thành.
+Rất tốt! Vua đối phương buộc phải tránh chiếu và từ đó không thể nhập thành nữa. Sau khi vua bị mắc kẹt ở trung tâm, bạn có thể tận dụng điểm yếu này để thực hiện đòn chiếu hết.
+
+Đối thủ chưa nhập thành. Bạn có thể tận dụng vị trí vua không an toàn đó để giành chiến thắng như thế nào?
+Xuất sắc! Bạn đã tìm ra chuỗi tấn công chính xác và kết thúc ván cờ bằng một đòn chiếu hết.
+
+Làm thế nào để trừng phạt vị trí vua không an toàn của đối phương?
+Xuất sắc! Đối phương không thể cứu được hậu vì vua của họ đang đứng ngay phía sau quân hậu.

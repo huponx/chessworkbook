@@ -1,5 +1,6 @@
 import argparse
 import logging
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -8,6 +9,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.platypus.doctemplate import ActionFlowable
 from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
@@ -67,10 +69,13 @@ class ChessWorkbookDoc(BaseDocTemplate):
         self.mode = mode
         self.mirror_margin = mirror_margin
         self.current_chapter = ""
+        self.current_chapter_title = ""
         self.chapter_start_pages: set[int] = set()
         self.page_chapters: dict[int, str] = {}
         self.chapter_page_numbers: list[int] = []
         self.content_start_page: int | None = None
+        self._flow_page = 0
+        self._first_flowable_on_page = True
 
         super().__init__(
             filename,
@@ -118,7 +123,10 @@ class ChessWorkbookDoc(BaseDocTemplate):
         self.page_chapters = {}
         self.chapter_page_numbers = []
         self.current_chapter = ""
+        self.current_chapter_title = ""
         self.content_start_page = None
+        self._flow_page = 0
+        self._first_flowable_on_page = True
 
     def show_page_number(self, page: int) -> bool:
         if self.mode == "toc":
@@ -136,8 +144,11 @@ class ChessWorkbookDoc(BaseDocTemplate):
         return self.page_chapters.get(max(eligible))
 
     def current_chapter_header(self) -> str:
-        text = self.current_chapter
-        return text.split(". ", 1)[1] if ". " in text else text
+        return self.current_chapter_title
+
+    @staticmethod
+    def chapter_title_from_paragraph(text: str) -> str:
+        return re.sub(r"^\d+\.\s+", "", text, count=1)
 
     def draw_header_footer(self, canvas, doc):
         canvas.saveState()
@@ -177,37 +188,55 @@ class ChessWorkbookDoc(BaseDocTemplate):
 
         canvas.restoreState()
 
+    def _mark_page_flowable(self, flowable) -> bool | None:
+        if isinstance(flowable, ActionFlowable):
+            return None
+
+        if self.page != self._flow_page:
+            self._flow_page = self.page
+            self._first_flowable_on_page = True
+        first_on_page = self._first_flowable_on_page
+        self._first_flowable_on_page = False
+        return first_on_page
+
     def afterFlowable(self, flowable):
-        if self.mode == "toc" or not isinstance(flowable, Paragraph):
+        if self.mode == "toc":
+            return
+
+        first_on_page = self._mark_page_flowable(flowable)
+        if first_on_page is None:
+            return
+
+        if not isinstance(flowable, Paragraph):
             return
 
         style_name = flowable.style.name
         text = flowable.getPlainText()
         logging.debug(
-            "page=%s style=%s text=%s",
+            "page=%s style=%s first=%s text=%s",
             self.page,
             style_name,
+            first_on_page,
             text[:80],
         )
 
         if style_name == "Item":
-            self.chapter_start_pages.add(self.page)
-            if self.current_chapter:
-                self.page_chapters[self.page] = self.current_chapter_header()
+            if first_on_page:
+                self.chapter_start_pages.add(self.page)
             return
 
         if style_name != "Chapter":
             return
 
         self.current_chapter = text
+        self.current_chapter_title = self.chapter_title_from_paragraph(text)
         logging.debug("CHAPTER page=%s text=%s", self.page, text)
 
         if self.mode == "combined" and self.content_start_page is None:
             self.content_start_page = self.page
 
-        header_text = self.current_chapter_header()
         self.chapter_start_pages.add(self.page)
-        self.page_chapters[self.page] = header_text
+        self.page_chapters[self.page] = self.current_chapter_title
         self.chapter_page_numbers.append(self.page)
 
         if self.mode != "combined":
@@ -234,7 +263,7 @@ def create_styles():
         fontName="NotoSans-Italic",
         fontSize=9,
         leading=12,
-        textColor="#333333",
+        textColor="#555555",
         spaceBefore=2,
         spaceAfter=8,
     )
@@ -251,7 +280,7 @@ def create_styles():
         parent=styles["BodyText"],
         fontName="NotoSans-Italic",
         fontSize=9,
-        textColor="#333333",
+        textColor="#555555",
         leading=14,
         spaceBefore=0,
         spaceAfter=0,

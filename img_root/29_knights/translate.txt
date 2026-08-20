@@ -1,0 +1,39 @@
+- Knights
+- Learn how to maximize the potential of your knights - a nightmare for your opponent!
+
+- Knights like to live on outpost squares: a safe spot in enemy territory where your knight is supported by a pawn. 
+- Great job! The knight enjoys great square control from this central outpost.
+
+- Get your knight to an outpost and add pressure to a pinned piece.
+- Well played! Your knight is ready to capture the pinned knight to blast open their castled position. Can you do it?
+- Well played! Your knight is ready to capture the pinned knight to blast open their castled position. Can you do it?
+- Great move, now when they recapture, their castled position is ruined.
+gộp ý 2, 3, 4 lại
+
+- They're about to capture your beautifully outposted knight. Where can your other knight go so it's ready to take its place?
+- You got it! Now let's create a new knight outpost in the center.
+- You got it! Now let's create a new knight outpost in the center.
+- Excellent! Your knight enjoys a tremendous outpost square.
+gộp ý 2, 3, 4 lại
+
+- Have your knight and queen team up to make a strong threat.
+- Nicely spotted! The queen and knight work together beautifully - can you find checkmate?
+- Nicely spotted! The queen and knight work together beautifully - can you find checkmate?
+- Impressive checkmate! The queen and knight are excellent attacking partners.
+gộp ý 2, 3, 4 lại
+
+---
+Mã (Knights)
+Học cách khai thác tối đa sức mạnh của quân mã – cơn ác mộng đối với đối thủ!
+
+Mã rất thích các ô tiền đồn (outpost): những ô an toàn trong lãnh thổ đối phương, được quân tốt của bạn bảo vệ.
+Rất tốt! Quân mã của bạn đang kiểm soát rất nhiều ô từ vị trí tiền đồn trung tâm này.
+
+Đưa mã đến một ô tiền đồn và gia tăng áp lực lên quân đang bị ghim.
+Xuất sắc! Mã của bạn đã chiếm được vị trí tiền đồn lý tưởng và sẵn sàng bắt quân mã bị ghim, phá vỡ cấu trúc nhập thành của đối phương.
+
+Đối phương sắp bắt quân mã đang ở vị trí tiền đồn tuyệt vời của bạn. Hãy tìm một ô cho quân mã còn lại để sẵn sàng thay thế vị trí đó.
+Rất tốt! Bạn đã thiết lập thành công một tiền đồn mới ở trung tâm, nơi quân mã có thể phát huy tối đa sức mạnh.
+
+Hãy để mã và hậu phối hợp để tạo ra một mối đe dọa mạnh mẽ.
+Xuất sắc! Hậu và mã phối hợp tuyệt vời với nhau để tạo nên một đòn tấn công và chiếu hết ấn tượng.

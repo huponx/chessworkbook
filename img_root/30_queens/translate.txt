@@ -1,0 +1,39 @@
+- Queens
+- Learn how to best use your queen.
+
+- Queens are most active in the center. Find a good square for White's queen.
+- qds đúng Good choice! White's queen dominates the board.
+
+- If a queen develops too early, the opponent can gain time by attacking it with less valuable pieces. How can White develop and attack the black queen?
+- Well played! Black must lose time moving the queen to safety.
+
+- A queen supported by another piece can often checkmate.
+- Good choice!
+
+- Queens are great at making forks. How can you attack the black king and an undefended pawn at the same time?
+- Nice move!
+
+- Let's continue the game. What can you capture to make another fork?
+- That was a fork too! What can you capture next?
+- That was a fork too! What can you capture next?
+- That's a free rook. Great job!
+gộp ý 2, 3, 4 lại
+
+---
+Hậu (Queens)
+Học cách sử dụng quân hậu một cách hiệu quả nhất.
+
+Hậu hoạt động mạnh nhất khi đứng ở trung tâm. Hãy tìm một ô tốt cho hậu Trắng.
+Lựa chọn rất hay! Hậu Trắng đang kiểm soát phần lớn bàn cờ.
+
+Nếu hậu phát triển quá sớm, đối phương có thể tấn công nó bằng những quân có giá trị thấp hơn. Làm thế nào để Trắng vừa phát triển quân vừa tấn công hậu Đen?
+Rất tốt! Đen buộc phải mất thời gian đưa hậu đến nơi an toàn.
+
+Một quân hậu được quân khác hỗ trợ thường có thể tạo ra đòn chiếu hết.
+Lựa chọn chính xác!
+
+Hậu rất giỏi trong việc tạo đòn nĩa. Làm thế nào để vừa tấn công vua Đen vừa tấn công một quân tốt không được bảo vệ?
+Nước đi rất hay!
+
+Hãy tiếp tục ván cờ. Bạn có thể bắt quân nào để tạo thêm một đòn nĩa?
+Xuất sắc! Bạn liên tiếp tạo ra các đòn nĩa và cuối cùng giành được một quân xe miễn phí.

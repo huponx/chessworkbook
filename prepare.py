@@ -22,7 +22,7 @@ from workbook_io import (
     slugify_chapter_name,
 )
 
-START_KEYWORDS = ("bat dau",)
+START_KEYWORDS = ("bat dau", "bat đau")
 CONTINUE_KEYWORDS = ("tiep theo", "tiep tuc")
 TURN_LINE_PATTERN = re.compile(r"den\s+luot", re.IGNORECASE)
 STATUS_BAR_PATTERN = re.compile(r"\d{1,2}:\d{2}")
