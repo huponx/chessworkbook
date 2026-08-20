@@ -15,3 +15,11 @@ Manual chapter/item setup (optional):
 - python template.py chapter 1 goals_of_chess "Goals of Chess"
 - python template.py item "title"
 - python template.py item stalemate "title" note here
+
+# Chess Alias
+alias chapter='python template.py chapter'
+alias item='python template.py item'
+alias prepare='python prepare.py'
+alias trans='python apply_translate.py'
+alias crop='python crop.py'
+alias pdf='python build_pdf.py'
