@@ -107,16 +107,25 @@ class ChessWorkbookDoc(BaseDocTemplate):
                     id="odd",
                     frames=[odd_frame],
                     onPageEnd=self.draw_header_footer,
-                    autoNextPageTemplate="even",
                 ),
                 PageTemplate(
                     id="even",
                     frames=[even_frame],
                     onPageEnd=self.draw_header_footer,
-                    autoNextPageTemplate="odd",
                 ),
             ]
         )
+
+    def handle_pageBegin(self):
+        # autoNextPageTemplate leaves the chosen template selected, so page 3
+        # repeats page 2. Pick the frame from the page number instead.
+        if self.mirror_margin:
+            template_id = "odd" if (self.page + 1) % 2 == 1 else "even"
+            for template in self.pageTemplates:
+                if template.id == template_id:
+                    self.pageTemplate = template
+                    break
+        super().handle_pageBegin()
 
     def beforeDocument(self):
         self.chapter_start_pages = set()
